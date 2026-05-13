@@ -1,0 +1,25 @@
+/* Pharmaverse portfolio — minimal overrides */
+
+/* Slightly wider content on full-width pages */
+.page-layout-full .quarto-title-block {
+  max-width: 960px;
+  margin: 0 auto 2rem;
+}
+
+/* Table styling */
+.table thead th {
+  background-color: #f0f4f8;
+  font-weight: 600;
+}
+
+/* Code block caption */
+.code-with-filename .code-with-filename-file {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}

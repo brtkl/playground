@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\_D\\\\PROJECTS\\\\r_002_pharmaverse_playground\\\\reports\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\_D\\\\PROJECTS\\\\r_002_pharmaverse_playground\\\\assets\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\_D\\\\PROJECTS\\\\r_002_pharmaverse_playground\\\\docs\")",
+      "PowerShell(New-Item -ItemType File -Path \"c:\\\\_D\\\\PROJECTS\\\\r_002_pharmaverse_playground\\\\docs\\\\.nojekyll\" -Force)",
+      "PowerShell(New-Item -ItemType File -Path \"c:\\\\_D\\\\PROJECTS\\\\r_002_pharmaverse_playground\\\\.gitignore\" -Force)",
+      "PowerShell(quarto --version 2>&1)",
+      "Read(//c/Program Files/RStudio/**)",
+      "Read(//c/Program Files/**)",
+      "Read(//c//**)",
+      "PowerShell(Get-Command quarto -ErrorAction SilentlyContinue)"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Pharmaverse Clinical Reporting Portfolio"
+  description: "Clinical data analysis and reporting using the pharmaverse ecosystem"
+  favicon: assets/favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: reports/index.qmd
+        text: Reports
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/brtkl/r_002_pharmaverse_playground
+  sidebar: false
+  page-footer:
+    left: "Built with [Quarto](https://quarto.org) and the [pharmaverse](https://pharmaverse.org)"
+    right: "2026 — Bartosz Szymecki"
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    code-overflow: wrap
+    highlight-style: github

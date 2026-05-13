@@ -1,0 +1,14 @@
+---
+title: "Reports"
+listing:
+  contents: "*.qmd"
+  type: table
+  fields: [title, description, date, categories]
+  sort: "date desc"
+  filter-ui: true
+  sort-ui: true
+page-layout: full
+---
+
+Clinical reports and analyses produced from the CDISC Pilot Project ADaM datasets.
+Reports are organized by clinical domain and analysis type.

@@ -1,0 +1,46 @@
+---
+title: "Pharmaverse Clinical Reporting Portfolio"
+subtitle: "Reproducible clinical data analysis using pharmaverse R packages"
+page-layout: full
+---
+
+## Overview
+
+This portfolio demonstrates end-to-end clinical reporting workflows built on the [pharmaverse](https://pharmaverse.org) ecosystem — a curated collection of open-source R packages designed for clinical trial data analysis and submission-ready reporting.
+
+Work is based on the **CDISC Pilot Project** dataset, a publicly available reference dataset that mirrors real Phase III trial data structures (SDTM and ADaM).
+
+---
+
+## Data Source
+
+| Domain | Standard | Description |
+|--------|----------|-------------|
+| ADSL   | ADaM     | Subject-level analysis dataset |
+| ADAE   | ADaM     | Adverse events |
+| ADVS   | ADaM     | Vital signs |
+| ADLBC  | ADaM     | Lab chemistry (continuous) |
+| ADLBH  | ADaM     | Lab hematology |
+| ADTTE  | ADaM     | Time-to-event |
+| ADQSADAS | ADaM   | ADAS-Cog questionnaire |
+
+---
+
+## Pharmaverse Packages in Use
+
+| Package | Purpose |
+|---------|---------|
+| [admiral](https://pharmaverse.github.io/admiral/) | ADaM dataset derivation |
+| [teal](https://pharmaverse.github.io/teal/) | Interactive Shiny exploratory apps |
+| [rtables](https://insightsengineering.github.io/rtables/) | Table structure and rendering |
+| [tern](https://insightsengineering.github.io/tern/) | Clinical trial analysis functions |
+| [riskmetric](https://pharmaverse.github.io/riskmetric/) | Package risk assessment |
+| [gtsummary](https://www.danieldsjoberg.com/gtsummary/) | Publication-ready summary tables |
+
+---
+
+## Reports
+
+Browse the clinical reports produced in this portfolio:
+
+- [Reports Index](reports/index.qmd)

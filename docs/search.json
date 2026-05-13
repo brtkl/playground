@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "reports/index.html",
+    "href": "reports/index.html",
+    "title": "Reports",
+    "section": "",
+    "text": "Clinical reports and analyses produced from the CDISC Pilot Project ADaM datasets. Reports are organized by clinical domain and analysis type.\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDescription\nDate\nCategories\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About This Portfolio",
+    "section": "",
+    "text": "This site documents statistical programming work performed using the pharmaverse — an open-source R ecosystem for clinical trial data analysis. It serves as both a learning resource and a demonstration of reproducible clinical reporting workflows."
+  },
+  {
+    "objectID": "about.html#purpose",
+    "href": "about.html#purpose",
+    "title": "About This Portfolio",
+    "section": "",
+    "text": "This site documents statistical programming work performed using the pharmaverse — an open-source R ecosystem for clinical trial data analysis. It serves as both a learning resource and a demonstration of reproducible clinical reporting workflows."
+  },
+  {
+    "objectID": "about.html#workflow",
+    "href": "about.html#workflow",
+    "title": "About This Portfolio",
+    "section": "Workflow",
+    "text": "Workflow\nRaw Data (XPT)\n    │\n    ▼\nSDTM (standardized clinical data)\n    │\n    ▼\nADaM (analysis-ready datasets)  ←── admiral\n    │\n    ▼\nTLFs (Tables, Listings, Figures) ←── rtables + tern + ggplot2\n    │\n    ▼\nQuarto Reports (this site)"
+  },
+  {
+    "objectID": "about.html#environment",
+    "href": "about.html#environment",
+    "title": "About This Portfolio",
+    "section": "Environment",
+    "text": "Environment\nAll analyses are run inside the statprog_environment/ directory, which follows a standard statistical programming folder hierarchy:\n\n\n\nFolder\nContents\n\n\n\n\ndata/raw/\nOriginal source data\n\n\ndata/sdtm/\nSDTM datasets\n\n\ndata/adam/\nADaM datasets (CDISC Pilot)\n\n\npgms/\nAnalysis programs (R scripts / QMD)\n\n\noutputs/\nGenerated TLF outputs\n\n\nlogs/\nExecution logs\n\n\nmetadata/\nSpecifications and data dictionaries"
+  },
+  {
+    "objectID": "about.html#dataset",
+    "href": "about.html#dataset",
+    "title": "About This Portfolio",
+    "section": "Dataset",
+    "text": "Dataset\nThe CDISC Pilot Project dataset is used throughout. It is a publicly available reference dataset distributed by CDISC that mirrors a real Phase III Alzheimer’s disease clinical trial."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pharmaverse Clinical Reporting Portfolio",
+    "section": "",
+    "text": "This portfolio demonstrates end-to-end clinical reporting workflows built on the pharmaverse ecosystem — a curated collection of open-source R packages designed for clinical trial data analysis and submission-ready reporting.\nWork is based on the CDISC Pilot Project dataset, a publicly available reference dataset that mirrors real Phase III trial data structures (SDTM and ADaM)."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Pharmaverse Clinical Reporting Portfolio",
+    "section": "",
+    "text": "This portfolio demonstrates end-to-end clinical reporting workflows built on the pharmaverse ecosystem — a curated collection of open-source R packages designed for clinical trial data analysis and submission-ready reporting.\nWork is based on the CDISC Pilot Project dataset, a publicly available reference dataset that mirrors real Phase III trial data structures (SDTM and ADaM)."
+  },
+  {
+    "objectID": "index.html#data-source",
+    "href": "index.html#data-source",
+    "title": "Pharmaverse Clinical Reporting Portfolio",
+    "section": "Data Source",
+    "text": "Data Source\n\n\n\nDomain\nStandard\nDescription\n\n\n\n\nADSL\nADaM\nSubject-level analysis dataset\n\n\nADAE\nADaM\nAdverse events\n\n\nADVS\nADaM\nVital signs\n\n\nADLBC\nADaM\nLab chemistry (continuous)\n\n\nADLBH\nADaM\nLab hematology\n\n\nADTTE\nADaM\nTime-to-event\n\n\nADQSADAS\nADaM\nADAS-Cog questionnaire"
+  },
+  {
+    "objectID": "index.html#pharmaverse-packages-in-use",
+    "href": "index.html#pharmaverse-packages-in-use",
+    "title": "Pharmaverse Clinical Reporting Portfolio",
+    "section": "Pharmaverse Packages in Use",
+    "text": "Pharmaverse Packages in Use\n\n\n\nPackage\nPurpose\n\n\n\n\nadmiral\nADaM dataset derivation\n\n\nteal\nInteractive Shiny exploratory apps\n\n\nrtables\nTable structure and rendering\n\n\ntern\nClinical trial analysis functions\n\n\nriskmetric\nPackage risk assessment\n\n\ngtsummary\nPublication-ready summary tables"
+  },
+  {
+    "objectID": "index.html#reports",
+    "href": "index.html#reports",
+    "title": "Pharmaverse Clinical Reporting Portfolio",
+    "section": "Reports",
+    "text": "Reports\nBrowse the clinical reports produced in this portfolio:\n\nReports Index"
+  }
+]

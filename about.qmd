@@ -1,0 +1,43 @@
+---
+title: "About This Portfolio"
+---
+
+## Purpose
+
+This site documents statistical programming work performed using the **pharmaverse** — an open-source R ecosystem for clinical trial data analysis. It serves as both a learning resource and a demonstration of reproducible clinical reporting workflows.
+
+## Workflow
+
+```
+Raw Data (XPT)
+    │
+    ▼
+SDTM (standardized clinical data)
+    │
+    ▼
+ADaM (analysis-ready datasets)  ←── admiral
+    │
+    ▼
+TLFs (Tables, Listings, Figures) ←── rtables + tern + ggplot2
+    │
+    ▼
+Quarto Reports (this site)
+```
+
+## Environment
+
+All analyses are run inside the [`statprog_environment/`](https://github.com/brtkl/r_002_pharmaverse_playground/tree/main/statprog_environment) directory, which follows a standard statistical programming folder hierarchy:
+
+| Folder | Contents |
+|--------|----------|
+| `data/raw/` | Original source data |
+| `data/sdtm/` | SDTM datasets |
+| `data/adam/` | ADaM datasets (CDISC Pilot) |
+| `pgms/` | Analysis programs (R scripts / QMD) |
+| `outputs/` | Generated TLF outputs |
+| `logs/` | Execution logs |
+| `metadata/` | Specifications and data dictionaries |
+
+## Dataset
+
+The **CDISC Pilot Project** dataset is used throughout. It is a publicly available reference dataset distributed by [CDISC](https://www.cdisc.org/) that mirrors a real Phase III Alzheimer's disease clinical trial.
