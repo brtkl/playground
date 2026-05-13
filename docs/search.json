@@ -11,14 +11,14 @@
     "href": "about.html",
     "title": "About This Portfolio",
     "section": "",
-    "text": "This site documents statistical programming work performed using the pharmaverse — an open-source R ecosystem for clinical trial data analysis. It serves as both a learning resource and a demonstration of reproducible clinical reporting workflows."
+    "text": "This site is a personal playground for learning the pharmaverse - an open-source R ecosystem for clinical trial data analysis - coming from a SAS/SQL background. Expect rough edges: it’s a sandbox for experiments, not polished production work."
   },
   {
     "objectID": "about.html#purpose",
     "href": "about.html#purpose",
     "title": "About This Portfolio",
     "section": "",
-    "text": "This site documents statistical programming work performed using the pharmaverse — an open-source R ecosystem for clinical trial data analysis. It serves as both a learning resource and a demonstration of reproducible clinical reporting workflows."
+    "text": "This site is a personal playground for learning the pharmaverse - an open-source R ecosystem for clinical trial data analysis - coming from a SAS/SQL background. Expect rough edges: it’s a sandbox for experiments, not polished production work."
   },
   {
     "objectID": "about.html#workflow",
@@ -44,36 +44,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Pharmaverse Clinical Reporting Portfolio",
+    "title": "Pharmaverse playground",
     "section": "",
-    "text": "This portfolio demonstrates end-to-end clinical reporting workflows built on the pharmaverse ecosystem — a curated collection of open-source R packages designed for clinical trial data analysis and submission-ready reporting.\nWork is based on the CDISC Pilot Project dataset, a publicly available reference dataset that mirrors real Phase III trial data structures (SDTM and ADaM)."
+    "text": "Statistical programmer working in the pharma industry since 2015. Using SAS and SQL as primary tools for data processing and reporting.\n\n\n\n\nExpand my knowledge of R, quarto, tidyverse, and pharmaverse packages\nA personal playground for experimenting with the pharmaverse ecosystem and learning clinical reporting in R.\nStore interesting snippets/programs along with example TLF outputs"
   },
   {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Pharmaverse Clinical Reporting Portfolio",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Pharmaverse playground",
     "section": "",
-    "text": "This portfolio demonstrates end-to-end clinical reporting workflows built on the pharmaverse ecosystem — a curated collection of open-source R packages designed for clinical trial data analysis and submission-ready reporting.\nWork is based on the CDISC Pilot Project dataset, a publicly available reference dataset that mirrors real Phase III trial data structures (SDTM and ADaM)."
+    "text": "Statistical programmer working in the pharma industry since 2015. Using SAS and SQL as primary tools for data processing and reporting."
   },
   {
-    "objectID": "index.html#data-source",
-    "href": "index.html#data-source",
-    "title": "Pharmaverse Clinical Reporting Portfolio",
-    "section": "Data Source",
-    "text": "Data Source\n\n\n\nDomain\nStandard\nDescription\n\n\n\n\nADSL\nADaM\nSubject-level analysis dataset\n\n\nADAE\nADaM\nAdverse events\n\n\nADVS\nADaM\nVital signs\n\n\nADLBC\nADaM\nLab chemistry (continuous)\n\n\nADLBH\nADaM\nLab hematology\n\n\nADTTE\nADaM\nTime-to-event\n\n\nADQSADAS\nADaM\nADAS-Cog questionnaire"
-  },
-  {
-    "objectID": "index.html#pharmaverse-packages-in-use",
-    "href": "index.html#pharmaverse-packages-in-use",
-    "title": "Pharmaverse Clinical Reporting Portfolio",
-    "section": "Pharmaverse Packages in Use",
-    "text": "Pharmaverse Packages in Use\n\n\n\nPackage\nPurpose\n\n\n\n\nadmiral\nADaM dataset derivation\n\n\nteal\nInteractive Shiny exploratory apps\n\n\nrtables\nTable structure and rendering\n\n\ntern\nClinical trial analysis functions\n\n\nriskmetric\nPackage risk assessment\n\n\ngtsummary\nPublication-ready summary tables"
-  },
-  {
-    "objectID": "index.html#reports",
-    "href": "index.html#reports",
-    "title": "Pharmaverse Clinical Reporting Portfolio",
-    "section": "Reports",
-    "text": "Reports\nBrowse the clinical reports produced in this portfolio:\n\nReports Index"
+    "objectID": "index.html#purpose-of-this-webpage",
+    "href": "index.html#purpose-of-this-webpage",
+    "title": "Pharmaverse playground",
+    "section": "",
+    "text": "Expand my knowledge of R, quarto, tidyverse, and pharmaverse packages\nA personal playground for experimenting with the pharmaverse ecosystem and learning clinical reporting in R.\nStore interesting snippets/programs along with example TLF outputs"
   }
 ]

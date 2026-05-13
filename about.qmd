@@ -4,7 +4,7 @@ title: "About This Portfolio"
 
 ## Purpose
 
-This site documents statistical programming work performed using the **pharmaverse** — an open-source R ecosystem for clinical trial data analysis. It serves as both a learning resource and a demonstration of reproducible clinical reporting workflows.
+This site is a personal **playground** for learning the **pharmaverse** - an open-source R ecosystem for clinical trial data analysis - coming from a SAS/SQL background. Expect rough edges: it's a sandbox for experiments, not polished production work.
 
 ## Workflow
 

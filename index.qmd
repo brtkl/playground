@@ -1,18 +1,28 @@
 ---
-title: "Pharmaverse Clinical Reporting Portfolio"
-subtitle: "Reproducible clinical data analysis using pharmaverse R packages"
+title: "Pharmaverse playground"
+subtitle: "A learning sandbox for clinical data analysis with pharmaverse R packages"
+author: "Bartosz Szymecki"
+date: "2026-05-14"
 page-layout: full
 ---
 
-## Overview
+# Introduction
 
-This portfolio demonstrates end-to-end clinical reporting workflows built on the [pharmaverse](https://pharmaverse.org) ecosystem — a curated collection of open-source R packages designed for clinical trial data analysis and submission-ready reporting.
+## About me
 
-Work is based on the **CDISC Pilot Project** dataset, a publicly available reference dataset that mirrors real Phase III trial data structures (SDTM and ADaM).
+Statistical programmer working in the pharma industry since 2015. Using SAS and SQL as primary tools for data processing and reporting. 
+
+## Purpose of this webpage
+
+- Expand my knowledge of R, quarto, tidyverse, and pharmaverse packages
+- A personal playground for experimenting with the [pharmaverse](https://pharmaverse.org) ecosystem and learning clinical reporting in R.
+- Store interesting snippets/programs along with example TLF outputs 
 
 ---
 
-## Data Source
+# Data Source
+
+Work in this playground is based on the **CDISC Pilot Project** dataset - a publicly available reference dataset that mirrors a Phase III Alzheimer's disease trial.
 
 | Domain | Standard | Description |
 |--------|----------|-------------|
@@ -24,9 +34,10 @@ Work is based on the **CDISC Pilot Project** dataset, a publicly available refer
 | ADTTE  | ADaM     | Time-to-event |
 | ADQSADAS | ADaM   | ADAS-Cog questionnaire |
 
+<!--
 ---
 
-## Pharmaverse Packages in Use
+# Pharmaverse Packages Explored
 
 | Package | Purpose |
 |---------|---------|
@@ -38,9 +49,4 @@ Work is based on the **CDISC Pilot Project** dataset, a publicly available refer
 | [gtsummary](https://www.danieldsjoberg.com/gtsummary/) | Publication-ready summary tables |
 
 ---
-
-## Reports
-
-Browse the clinical reports produced in this portfolio:
-
-- [Reports Index](reports/index.qmd)
+-->

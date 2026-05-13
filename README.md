@@ -2,7 +2,7 @@
 
 Reproducible clinical reporting portfolio using the [pharmaverse](https://pharmaverse.org) ecosystem.
 
-**Data:** CDISC Pilot Project (ADaM) — Alzheimer's disease Phase III reference trial  
+**Data:** CDISC Pilot Project (ADaM) - Alzheimer's disease Phase III reference trial  
 **Site:** built with [Quarto](https://quarto.org), deployed to GitHub Pages from `docs/`
 
 ## Structure
